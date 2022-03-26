@@ -63,7 +63,3 @@ body {
 .active {
   transform: rotateY(180deg);
 }
-
-img {
-  display: none;
-}
