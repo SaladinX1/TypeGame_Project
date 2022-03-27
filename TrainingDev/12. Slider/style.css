@@ -26,14 +26,13 @@ body {
   height: auto;
   position: absolute;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out; 
-} 
-
+  transition: opacity 0.2s ease-in-out;
+}
 .commandes {
   top: 0px;
   width: 100%;
   height: 100%;
-  position :absolute;
+  position: absolute;
 }
 
 .commandes button {
@@ -46,28 +45,23 @@ body {
   align-items: center;
   cursor: pointer;
 }
-
-.commandes img{
-  width: 30%;
+.commandes img {
+  width: 30px;
   position: relative;
 }
-
-.commandes button:nth-child(1) {
+.commandes button:nth-child(1){
   top: 50%;
   transform: translateY(-50%);
   left: 5px;
 }
-
-.commandes button:nth-child(2) {
+.commandes button:nth-child(2){
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
 }
-
 .commandes button:nth-child(1) img {
   left: -4px;
 }
-
 .commandes button:nth-child(2) img {
   right: -4px;
 }
@@ -83,10 +77,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .cercle {
   width: 50px;
-  height: 50px;
+  height: 50%;
   border-radius: 50%;
   margin: 5px;
   cursor: pointer;
@@ -95,9 +88,8 @@ body {
 }
 
 .active-cercle {
-  background: rgb(58, 36, 156);
+  background: rgb(58,36,156);
 }
-
 .active {
   opacity: 1!important;
 }
