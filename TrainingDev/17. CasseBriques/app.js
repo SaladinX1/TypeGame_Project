@@ -159,6 +159,7 @@ function collisionDetection() {
 
 document.addEventListener('mousemove', mouvementSouris);
 
+
     function mouvementSouris(e) {
 
         let posXBarreCanvas = e.clientX - canvas.offsetLeft;
